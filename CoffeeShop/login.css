@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color: white;
+}
+.main{
+    height: 100vh;
+    background: linear-gradient(155deg, #FFF2D8 50%, #EAD7BB 50%);
+    display:grid;
+    place-content: center;
+}
+.form{
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid ;
+    background-color:#776B5D;
+}
+.f{
+    margin:20px;
+    width:500px;
+    height:40px;
+    text-align: center;
+    font-size: large;
+    border:2px solid black;
+    border-radius: 20px;
+    transition: 0.90s;
+}
+.text{
+    color:black;
+    font-size: 43px;
+    text-align: center;
+}
+.ho:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color:black;
+    color:white;
+}
+span{
+    margin:10px 0px;
+}

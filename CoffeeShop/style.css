@@ -1,0 +1,19 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+#images{
+  background-color: #862B0D;
+}
+#pricing{
+  background-color: #862B0D;
+}
+#one{
+  background-color: #862B0D;
+}
+#four{
+  background-color: #862B0D;
+}
+html{
+  scroll-behavior: smooth;
+}
